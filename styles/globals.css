@@ -1,0 +1,43 @@
+* {
+  transition: all;
+}
+body {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+}
+.modal button {
+  background-color: blanchedalmond;
+  padding: 10px;
+  border: none;
+  color: black;
+  border-radius: 10px;
+}
+button {
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.modal h2 {
+  margin: 20px;
+}
